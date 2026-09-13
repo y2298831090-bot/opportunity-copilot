@@ -6,7 +6,7 @@
 
 ## 2. 在线访问入口
 
-在线 Demo：部署后填写
+在线 Demo：https://opportunity-copilot-demo.streamlit.app
 
 ## 3. 支持的输入
 
