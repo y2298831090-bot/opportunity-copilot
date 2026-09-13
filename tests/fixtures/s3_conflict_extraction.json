@@ -1,0 +1,50 @@
+{
+  "input_quality": {"status": "readable"},
+  "customer_needs": [
+    {
+      "value": "减少售后客服重复咨询处理并降低平均响应时间",
+      "status": "confirmed",
+      "evidence": [{"quote": "一期不是为了替掉客服，主要是先把重复咨询处理掉，把平均响应时间降下来。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]
+    }
+  ],
+  "core_scenarios": [
+    {"value": "售后客服知识库问答", "status": "confirmed", "evidence": [{"quote": "一期优先验证两个场景：第一，售后客服知识库问答；第二，工单回复辅助。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"value": "工单回复辅助", "status": "confirmed", "evidence": [{"quote": "一期优先验证两个场景：第一，售后客服知识库问答；第二，工单回复辅助。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"value": "接入现有FAQ、产品说明书以及历史工单", "status": "confirmed", "evidence": [{"quote": "计划接入的资料包括现有FAQ、产品说明书以及历史工单。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]}
+  ],
+  "budget": {
+    "exists": true,
+    "exists_status": "confirmed",
+    "amount": "约80万元",
+    "amount_status": "unconfirmed",
+    "evidence": [{"quote": "今年给一期项目预留了大概80万元预算，不过最终额度财务还要再确认。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]
+  },
+  "decision_maker": {"name": "赵敏", "role": "业务副总经理", "status": "confirmed", "evidence": [{"quote": "最终采购需要赵敏审批，她是这个项目最后拍板的人。", "source": "text", "speaker": "周倩", "certainty": "explicit", "polarity": "positive"}]},
+  "influencers": [{"name": "李晨", "role": "信息化部经理", "status": "confirmed", "evidence": [{"quote": "他的评估意见会直接影响我们最后选哪家。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]}],
+  "timeline": {"value": "11月15日前正式上线一期", "status": "confirmed", "evidence": [{"quote": "业务侧希望11月15日前正式上线一期，最好双十一之后马上能用起来。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]},
+  "stage_signals": [
+    {"type": "need_active", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "希望一期先做一个面向售后客服的AI助手。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]},
+    {"type": "use_case", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "一期优先验证两个场景：第一，售后客服知识库问答；第二，工单回复辅助。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"type": "demo_agreed", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "下周二下午两点，你们过来做一个完整Demo，再安排一次技术交流。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"type": "technical_exchange_agreed", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "下周二下午两点，你们过来做一个完整Demo，再安排一次技术交流。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"type": "budget_discussed", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "今年给一期项目预留了大概80万元预算，不过最终额度财务还要再确认。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]},
+    {"type": "quotation_discussed", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "赵敏要求我方在本周五前提供正式报价。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]},
+    {"type": "procurement_process_discussed", "certainty": "explicit", "polarity": "positive", "evidence": [{"quote": "技术评审通过后进入采购比价，再提交最终审批。", "source": "text", "speaker": "周倩", "certainty": "explicit", "polarity": "positive"}]}
+  ],
+  "customer_agreed_actions": [
+    {"action": "发送正式报价，并拆分软件订阅、实施服务和运维费用", "recommended_owner": "陈杰 / 销售", "owner_side": "seller", "time": "本周五前", "source_type": "customer_agreed", "evidence": [{"quote": "我方陈杰：本周五前发送正式报价，费用拆分为软件、实施和运维。", "source": "text", "speaker": "销售", "certainty": "explicit", "polarity": "positive"}]},
+    {"action": "进行产品Demo和技术交流", "recommended_owner": "王涛 / 售前", "owner_side": "seller", "time": "下周二14:00", "source_type": "customer_agreed", "evidence": [{"quote": "我方王涛：下周二14:00进行产品Demo和技术交流。", "source": "text", "speaker": "销售", "certainty": "explicit", "polarity": "positive"}]},
+    {"action": "准备20条脱敏FAQ和2份产品说明书", "recommended_owner": "李晨 / 客户", "owner_side": "customer", "time": "下周一前", "source_type": "customer_agreed", "evidence": [{"quote": "客户李晨：下周一前准备20条脱敏FAQ和2份产品说明书。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"action": "Demo后确认是否进入正式POC，并讨论POC周期和验收指标", "recommended_owner": "双方", "owner_side": "both", "time": "待确认", "source_type": "customer_agreed", "evidence": [{"quote": "双方在Demo结束后再确认是否进入正式POC，以及POC周期和验收指标；具体确认时间尚未约定。", "source": "text", "speaker": "双方", "certainty": "explicit", "polarity": "positive"}]}
+  ],
+  "uncertain_items": [
+    {"value": "最终预算额度待财务确认", "status": "unconfirmed", "evidence": [{"quote": "最终额度财务还要再确认。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}]},
+    {"value": "正式POC开始日期和验收指标未确认", "status": "unconfirmed", "evidence": [{"quote": "本次会议没有确定正式POC的开始日期和验收指标。", "source": "text", "speaker": "孙工", "certainty": "explicit", "polarity": "positive"}]}
+  ],
+  "conflict_candidates": [{"field": "时间计划", "affected_fields": ["timeline"], "description": "业务上线目标与采购完成计划不一致", "evidence": [{"quote": "业务侧希望11月15日前正式上线一期，最好双十一之后马上能用起来。", "source": "text", "speaker": "赵敏", "certainty": "explicit", "polarity": "positive"}, {"quote": "按我们现在的流程，今年内很难完成正式采购，最早可能要到明年一季度。", "source": "text", "speaker": "周倩", "certainty": "explicit", "polarity": "positive"}]}],
+  "risk_candidates": [
+    {"category": "business", "description": "客户同时评估另外两家供应商，存在供应商竞争。", "evidence": [{"quote": "客户目前还在同时评估另外两家供应商。", "source": "text", "speaker": "李晨", "certainty": "explicit", "polarity": "positive"}]},
+    {"category": "business", "description": "数据安全能力是客户方案评估的重要因素。", "evidence": [{"quote": "客户对数据安全较为关注，要求方案至少能够说明企业数据存储位置、账号权限控制和操作审计机制。", "source": "text", "speaker": "客户", "certainty": "explicit", "polarity": "positive"}]},
+    {"category": "information", "description": "POC验收指标尚未量化，可能影响后续方案验证和决策。", "evidence": [{"quote": "尚未给出准确率、响应时间或通过率等量化指标。", "source": "text", "speaker": "孙工", "certainty": "explicit", "polarity": "positive"}]}
+  ]
+}

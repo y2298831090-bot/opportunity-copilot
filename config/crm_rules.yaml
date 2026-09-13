@@ -1,0 +1,17 @@
+required_crm_fields:
+  - 客户需求
+  - 核心场景
+  - 预算
+  - 决策人
+  - 影响人
+  - 时间计划
+  - 商机阶段
+  - 风险
+  - 下一步行动
+  - 未确认信息
+critical_evidence_fields: [预算, 决策人, 时间计划, 商机阶段]
+completeness_dimensions: [客户需求, 核心场景, 预算, 决策人, 影响人, 时间计划, 下一步行动, 商机阶段证据]
+upload_limits:
+  max_upload_mb: 10
+  max_pdf_pages: 20
+  min_meaningful_text_chars: 40

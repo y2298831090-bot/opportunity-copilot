@@ -1,0 +1,21 @@
+stages:
+  S5:
+    name: 赢单/签约
+    required_any: [contract_signed, order_confirmed]
+  S4:
+    name: 决策审批
+    required_any: [internal_project_approved, approval_process_started, supplier_decision_started]
+  S3:
+    name: 商务评估
+    commercial_required_any: [budget_discussed, quotation_discussed, procurement_process_discussed, contract_terms_discussed]
+    need_required_any: [need_active, business_problem, use_case]
+  S2:
+    name: 方案验证
+    required_any: [demo_agreed, trial_agreed, technical_exchange_agreed, solution_evaluation_agreed]
+  S1:
+    name: 需求初探
+    required_any: [business_problem, use_case]
+  S0:
+    name: 线索
+    required_evidence: initial_contact_evidence
+conflict_signals: [need_invalidated, project_paused, procurement_cancelled]
